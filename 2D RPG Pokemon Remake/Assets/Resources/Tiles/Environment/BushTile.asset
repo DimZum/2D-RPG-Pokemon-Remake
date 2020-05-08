@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: BushTile
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 4626308545349237378, guid: d2cb4d953169da541b89e5934a4a9734,
-    type: 3}
+  m_Sprite: {fileID: 850721543360083369, guid: 855068165d1e4d046b7e3ed717ab58fb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
