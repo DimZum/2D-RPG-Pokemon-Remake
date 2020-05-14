@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: MountainTile_Top_2
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 994618379288253821, guid: eb9f170454884c14c9cb6393a16d27ce, type: 3}
+  m_Sprite: {fileID: 4142854664217270455, guid: 21d5ff465935b4f41a12086e97b39373,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
