@@ -21,13 +21,13 @@ public class Inventory : MonoBehaviour {
     public delegate void OnItemChagned();
     public OnItemChagned onItemChangedCallback;
 
-    public int space = 10; // Number of slots in inventory
+    public int numSlots = 28; // Number of slots in inventory
     public List<Item> items = new List<Item>(); // Current list of item in inventory
 
     // Adds item to inventory
     // Returns true if successful, else false
     public bool Add(Item item) {
-        if (items.Count >= space) {
+        if (items.Count >= numSlots) {
             Debug.Log("Inventory is full.");
             return false;
         }

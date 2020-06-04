@@ -32,7 +32,7 @@ public class PlayerMenuUI : MonoBehaviour {
     public Text head_t;                 // Head armor
     public Text body_t;                 // Body armor
     public Text legs_t;                 // Leg armor
-    public Text feet_t;                 // ie. boots
+    public Text boots_t;                // ie. boots
     public Text acc1_t;                 // Accessory #1
     public Text acc2_t;                 // Accessory #2
 
