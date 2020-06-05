@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class ResourceManager : MonoBehaviour {
 
     /* SINGLETON */
-    #region SINGLETON
+    /*#region SINGLETON
     public static ResourceManager instance;
 
     public void Awake() {
@@ -15,7 +15,12 @@ public class ResourceManager : MonoBehaviour {
             instance = this;
         }
     }
-    #endregion
+    #endregion*/
 
-    public Font ff3_font;
+    // Sounds
+    // Names of sound files
+    public static string mainMenuTheme = "MainMenuTheme";
+
+    // Fonts
+    public static Font ff3_font;
 }

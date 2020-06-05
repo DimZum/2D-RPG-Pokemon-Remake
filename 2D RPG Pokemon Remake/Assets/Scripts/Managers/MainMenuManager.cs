@@ -5,9 +5,16 @@ using UnityEngine;
 public class MainMenuManager : MonoBehaviour {
 
     public SceneFader sceneFader;
+    public AudioManager audioManager;
 
     public GameObject mainMenuButtons;
     public GameObject settingsUI;
+
+    private void Start() {
+        audioManager = AudioManager.instance;
+
+        audioManager.Play(ResourceManager.mainMenuTheme);
+    }
 
     // Start a new game file
     public void NewGame() {
